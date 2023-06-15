@@ -1,0 +1,151 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header,
+section h2,
+section h3,
+form button{
+    font-family: 'Bungee', cursive;
+}
+
+body,
+input,
+textarea{
+    font-family: 'Merriweather', serif;
+}
+
+header{
+    padding: 16px 0;
+    background-color: #cc0e24;
+    color: rgb(255, 255, 255);
+}
+
+header h1,
+section h2,
+section h3,
+form button{
+    font-weight: normal;
+}
+
+header nav li{
+    display: inline;
+    margin-left: 40px;
+    font-size: 20px;
+}
+
+header nav li a{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+
+.container{
+    max-width: 1280px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+header .container,
+section .container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.brands-list img{
+    height: 24px;
+}
+
+.brands-list li{
+    display: inline;
+    margin-right: 8px;
+}
+
+
+section .container{
+    align-items: flex-start;
+}
+
+section{
+    padding: 24px 0;
+}
+
+section h2{
+    margin-bottom: 16px;
+    color: rgb(0, 0, 0);
+}
+
+section p{
+    margin-bottom: 8px;
+}
+
+.escudo{
+    height: 350px;
+    margin-right: 32px;
+}
+
+.social-link img{
+    height: 24px;
+}
+
+.social-link li{
+    display: inline;
+    margin-right: 8px;
+}
+
+.social-link li a{
+    text-decoration: none;
+}
+
+#cadastro .container{
+    display: block;
+}
+.cadastro-methods{
+    display: flex;
+    justify-content: space-between;
+}
+
+form input,
+form textarea,
+form button{
+    display: block;
+    width: 320px;
+    margin-bottom: 16px;
+    padding: 8px;
+}
+
+form textarea{
+    resize: none;
+    height: 180px;
+}
+
+section h3{
+    margin-bottom: 16px;
+}
+
+form button{
+    background-color: rgb(207, 23, 23);
+    color: rgb(0, 0, 0);
+    border: none;
+    cursor: pointer;
+}
+
+form button:hover{
+    background-color: rgb(231, 49, 49);
+}
+
+input:focus, textarea:focus{
+    outline-color: rgb(236, 16, 16);
+}
+
+footer{
+    background-color: #cc0e24;
+    color: rgb(255, 255, 255);
+    padding: 16px 0;
+}
+
+section{
+    background-color: #fac0c0;
+}
